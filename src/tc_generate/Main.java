@@ -105,9 +105,9 @@ public class Main extends javax.swing.JFrame {
         check.setTC(tc);
         
         if(check.getCheck()){
-            JOptionPane.showMessageDialog(null, "TC gerçek");
+            JOptionPane.showMessageDialog(null, "Girdiğiniz TC gerçektir.", "Geçerli",JOptionPane.INFORMATION_MESSAGE);
         } else {
-            JOptionPane.showMessageDialog(null, "TC sahte");
+            JOptionPane.showMessageDialog(null, "Girdiğiniz TC sahtedir.", "Geçersiz", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btnCheckActionPerformed
 
